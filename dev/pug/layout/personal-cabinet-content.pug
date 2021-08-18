@@ -1,0 +1,262 @@
+section
+	.personal-cabinet
+		.container
+			.row
+				.col-12
+					h1.title Личный кабинет
+					.dfr
+						.user-photo
+							input#add-photo(type="file")
+							label.icon-photo(for="add-photo")
+								span Загрузить фото
+								| Файл не выбран
+						.user-desc
+							h3 Иванов Иван иванович
+							a.icon-lock(href="#") Изменить пароль
+							a.icon-logout(href="#") Выйти
+					ul.nav-tabs
+						li.active
+							a(href="#profil" data-toggle="tab") профиль
+						li
+							a(href="#list-doc" data-toggle="tab") список документов
+						li
+							a(href="#registration" data-toggle="tab") регистрационный взнос
+					.tab-content
+						#profil.tab-pane.active(role='tabpanel' aria-labelledby='home-tab')
+							h3(style="background:#2263A8;") личные данные
+							.profile-block
+								ul.profile
+									li ФИО на русском языке
+										span Иванов Иван Иванович
+									li Фамилия, имя на английском языке
+										span Ivanov Ivan
+									li Дата рождения
+										span 06/12/1994
+									li Пол
+										span Мужской
+									li Обращение (г-н, г-жа или любое другое)
+										span Не указано
+								.buttons
+									a.button(href="#") редактировать
+							form
+								.dfr
+									.input
+										input(type="text")
+										label ФИО на русском языке
+											sub *
+									.input
+										input(type="text")
+										label Фамилия, имя на английском языке
+											sub *
+									.input.icon-calendar
+										label Дата рождения
+											sub *
+										input(type="text")
+									.select
+										label Пол
+										select
+											option Мужской
+											option Женский
+									.input
+										input(type="text")
+										label Обращение (г-н, г-жа или любое другое)
+									p
+										sub *
+										| обязательные поля
+									.buttons
+										input.button(type="submit" value="сохранить")
+										a.button.cancel(href="#") отмена
+							h3(style="background:#72C1AD;") контактные данные
+							.profile-block
+								ul.profile
+									li Страна проживания
+										span Россия
+									li Область
+										span Санкт-Петербургская
+									li Город
+										span Санкт-Петербург
+									li Контактный телефон
+										span +7 (098) 876-45-21
+									li Email
+										span ivanov@gmail.com
+							form
+								.dfr
+									.select
+										label Страна проживания
+											sub *
+										select
+											option Россия
+											option Украина
+									.input
+										input(type="text")
+										label Область
+											sub *
+									.input
+										input(type="text")
+										label Город
+											sub *
+									.input
+										input(type="tel")
+										label Контактный телефон
+											sub *
+									.input.icon-edit
+										input(type="email")
+										label Email
+											sub *
+									p
+										sub *
+										| обязательные поля
+									.buttons
+										input.button(type="submit" value="сохранить")
+										a.button.cancel(href="#") отмена
+							h3(style="background:#F97C55;") данные для выступления
+							.profile-block
+								ul.profile
+									li Место работы/учебы
+										span Российский Национальный университет им. Н.Е.Жуковского
+									li Структурное позразделение организации
+										span Кафедра физкультуры и спорта
+									li Ученое звание/степень/почетное спортивное звание
+										span Кандидат наук
+									li Должность
+										span Заместитель заведующего кафедрой
+									li Название статьи
+										span Влияние спорта на здоровье человека и его эмоциональное состояние
+									li Соавторы
+										span Петров Петр Петрович (Petrov Petr), Александров Александр (Aleksandrov Alexandr)
+									li Номер и название секции Конгресса
+										span 234565 Научная секция
+									li Форма участия
+										span Очная
+									li Форма выступления
+										span Устная
+									li Потребность в технических средствах
+										span Да
+									li Список технических средств
+										span Компьютер, проектор
+							form
+								.dfr
+									.input
+										input(type="text")
+										label Место работы/учебы (полностью)
+											sub *
+									.input
+										input(type="text")
+										label Структурное позразделение организации (полностью)
+											sub *
+									.input
+										input(type="text")
+										label Ученое звание/степень/почетное спортивное звание (полностью)
+											sub *
+									.input
+										input(type="text")
+										label Должность (полностью)
+											sub *
+									.textarea
+										label Название статьи (полностью)
+											sub *
+										textarea
+									.textarea
+										label Соавторы через запятую (ФИО на русском и английском языках)
+											sub *
+										textarea
+									.input
+										input(type="text")
+										label Номер и название секции Конгресса
+											sub *
+									.input
+										input(type="text")
+										label Форма участия
+											sub *
+									.select
+										label Форма выступления
+										select
+											option Устная
+											option Устная
+									.select
+										label Потребность в технических средствах
+										select
+											option да
+											option нет
+									.input
+										input(type="text")
+										label Номер и название секции Конгресса
+									.input
+										input(type="text")
+										label Список технических средств
+									p
+										sub *
+										| обязательные поля
+									.buttons
+										input.button(type="submit" value="сохранить")
+										a.button.cancel(href="#") отмена
+						#list-doc.tab-pane.fade
+							form
+								h4 Вы можете разместить не более трех докладов или презентаций. Все доклады будут проверяться научным комитетом.
+								p Размер файлов до 2 Мб. Формат PDF, JPG, JPEG, PNG, DOCX.
+								.docs
+									.item
+										.head
+											h5 Презентация к докладу
+											ul
+												li
+													a.icon-edit(href="#") Редактировать
+												li
+													a.icon-delete(href="#") Удалить
+											p.status на модерации
+											i.icon-comments(data-comments="0")
+										.content-message
+									.item
+										.head
+											h5 Презентация к докладу
+											ul
+												li
+													a.icon-edit(href="#") Редактировать
+												li
+													a.icon-delete(href="#") Удалить
+											p.status.active принято
+											i.icon-comments(data-comments="1")
+										.content-message
+											ul.meta
+												li 19.05.2021
+												li 16:41
+												li Модератор
+											p Ваш файл успешно опубликован.
+								.input
+										input(type="text" maxlength="100")
+										label Наименование документа
+										p.length
+											span 0
+											| / 100
+								.file
+									i.icon-document
+									.dfc
+										input#add-file(type="file")
+										label(for="add-file") Загрузить файл
+										p Файл не выбран
+								input.button(type="submit" value="опубликовать")
+						#registration.tab-pane
+							form
+								.radio-buttons.dfr
+									.radio-button
+										input#ru(type="radio" name="money" checked="checked")
+										label(for="ru") Руб
+									.radio-button
+										input#eu(type="radio" name="money")
+										label(for="eu") EU
+								.checkbox
+									input#checkbox(type="checkbox")
+									label(for="checkbox") Очный участник. Стоимость - 10 000 руб
+								.checkbox
+									input#checkbox-2(type="checkbox")
+									label(for="checkbox-2") публикация одной статьи для очных/заочных участников. Стоимость - 2 000 руб
+								.checkbox
+									input#checkbox-3(type="checkbox")
+									label(for="checkbox-3") Публикация двух статей. Стоимость - 4 000 руб
+								p.price Всего:
+									span 14 000 руб
+								.buttons
+									input.button(type="submit" value="оплатить")
+									.file
+										input#add-file(type="file")
+										label(for="add-file") Загрузить файл

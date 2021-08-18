@@ -1,0 +1,275 @@
+
+<section>
+  <div class="personal-cabinet">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="title">Личный кабинет</h1>
+          <div class="dfr">
+            <div class="user-photo">
+              <input id="add-photo" type="file"/>
+              <label class="icon-photo" for="add-photo"><span>Загрузить фото</span>Файл не выбран</label>
+            </div>
+            <div class="user-desc">
+              <h3>Иванов Иван иванович</h3><a class="icon-lock" href="#">Изменить пароль</a><a class="icon-logout" href="#">Выйти</a>
+            </div>
+          </div>
+          <ul class="nav-tabs">
+            <li class="active"><a href="#profil" data-toggle="tab">профиль</a></li>
+            <li><a href="#list-doc" data-toggle="tab">список документов</a></li>
+            <li><a href="#registration" data-toggle="tab">регистрационный взнос</a></li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane active" id="profil" role="tabpanel" aria-labelledby="home-tab">
+              <h3 style="background:#2263A8;">личные данные</h3>
+              <div class="profile-block">
+                <ul class="profile">
+                  <li>ФИО на русском языке<span>Иванов Иван Иванович</span></li>
+                  <li>Фамилия, имя на английском языке<span>Ivanov Ivan</span></li>
+                  <li>Дата рождения<span>06/12/1994</span></li>
+                  <li>Пол<span>Мужской</span></li>
+                  <li>Обращение (г-н, г-жа или любое другое)<span>Не указано</span></li>
+                </ul>
+                <div class="buttons"><a class="button" href="#">редактировать</a></div>
+              </div>
+              <form>
+                <div class="dfr">
+                  <div class="input">
+                    <input type="text"/>
+                    <label>ФИО на русском языке<sub>*</sub></label>
+                  </div>
+                  <div class="input">
+                    <input type="text"/>
+                    <label>Фамилия, имя на английском языке<sub>*</sub></label>
+                  </div>
+                  <div class="input icon-calendar">
+                    <label>Дата рождения<sub>*</sub></label>
+                    <input type="text"/>
+                  </div>
+                  <div class="select">
+                    <label>Пол</label>
+                    <select>
+                      <option>Мужской</option>
+                      <option>Женский</option>
+                    </select>
+                  </div>
+                  <div class="input">
+                    <input type="text"/>
+                    <label>Обращение (г-н, г-жа или любое другое)</label>
+                  </div>
+                  <p><sub>*</sub>обязательные поля</p>
+                  <div class="buttons">
+                    <input class="button" type="submit" value="сохранить"/><a class="button cancel" href="#">отмена</a>
+                  </div>
+                </div>
+              </form>
+              <h3 style="background:#72C1AD;">контактные данные</h3>
+              <div class="profile-block">
+                <ul class="profile">
+                  <li>Страна проживания<span>Россия</span></li>
+                  <li>Область<span>Санкт-Петербургская</span></li>
+                  <li>Город<span>Санкт-Петербург</span></li>
+                  <li>Контактный телефон<span>+7 (098) 876-45-21</span></li>
+                  <li>Email<span>ivanov@gmail.com</span></li>
+                </ul>
+              </div>
+              <form>
+                <div class="dfr">
+                  <div class="select">
+                    <label>Страна проживания<sub>* </sub></label>
+                    <select>
+                      <option>Россия</option>
+                      <option>Украина</option>
+                    </select>
+                  </div>
+                  <div class="input">
+                    <input type="text"/>
+                    <label>Область<sub>*</sub></label>
+                  </div>
+                  <div class="input">
+                    <input type="text"/>
+                    <label>Город<sub>*</sub></label>
+                  </div>
+                  <div class="input">
+                    <input type="tel"/>
+                    <label>Контактный телефон<sub>*</sub></label>
+                  </div>
+                  <div class="input icon-edit">
+                    <input type="email"/>
+                    <label>Email<sub>*</sub></label>
+                  </div>
+                  <p><sub>*</sub>обязательные поля</p>
+                  <div class="buttons">
+                    <input class="button" type="submit" value="сохранить"/><a class="button cancel" href="#">отмена</a>
+                  </div>
+                </div>
+              </form>
+              <h3 style="background:#F97C55;">данные для выступления</h3>
+              <div class="profile-block">
+                <ul class="profile">
+                  <li>Место работы/учебы<span>Российский Национальный университет им. Н.Е.Жуковского</span></li>
+                  <li>Структурное позразделение организации<span>Кафедра физкультуры и спорта</span></li>
+                  <li>Ученое звание/степень/почетное спортивное звание<span>Кандидат наук</span></li>
+                  <li>Должность<span>Заместитель заведующего кафедрой</span></li>
+                  <li>Название статьи<span>Влияние спорта на здоровье человека и его эмоциональное состояние</span></li>
+                  <li>Соавторы <span>Петров Петр Петрович (Petrov Petr), Александров Александр (Aleksandrov Alexandr)</span></li>
+                  <li>Номер и название секции Конгресса<span>234565 Научная секция</span></li>
+                  <li>Форма участия<span>Очная</span></li>
+                  <li>Форма выступления<span>Устная</span></li>
+                  <li>Потребность в технических средствах<span>Да</span></li>
+                  <li>Список технических средств<span>Компьютер, проектор </span></li>
+                </ul>
+              </div>
+              <form>
+                <div class="dfr">
+                  <div class="input">
+                    <input type="text"/>
+                    <label>Место работы/учебы (полностью)<sub>*</sub></label>
+                  </div>
+                  <div class="input">
+                    <input type="text"/>
+                    <label>Структурное позразделение организации (полностью)<sub>*</sub></label>
+                  </div>
+                  <div class="input">
+                    <input type="text"/>
+                    <label>Ученое звание/степень/почетное спортивное звание (полностью)<sub>*</sub></label>
+                  </div>
+                  <div class="input">
+                    <input type="text"/>
+                    <label>Должность (полностью)<sub>*</sub></label>
+                  </div>
+                  <div class="textarea">
+                    <label>Название статьи (полностью)<sub>*</sub></label>
+                    <textarea></textarea>
+                  </div>
+                  <div class="textarea">
+                    <label>Соавторы через запятую (ФИО на русском и английском языках)<sub>*</sub></label>
+                    <textarea></textarea>
+                  </div>
+                  <div class="input">
+                    <input type="text"/>
+                    <label>Номер и название секции Конгресса<sub>*</sub></label>
+                  </div>
+                  <div class="input">
+                    <input type="text"/>
+                    <label>Форма участия<sub>*</sub></label>
+                  </div>
+                  <div class="select">
+                    <label>Форма выступления</label>
+                    <select>
+                      <option>Устная</option>
+                      <option>Устная</option>
+                    </select>
+                  </div>
+                  <div class="select">
+                    <label>Потребность в технических средствах</label>
+                    <select>
+                      <option>да</option>
+                      <option>нет</option>
+                    </select>
+                  </div>
+                  <div class="input">
+                    <input type="text"/>
+                    <label>Номер и название секции Конгресса</label>
+                  </div>
+                  <div class="input">
+                    <input type="text"/>
+                    <label>Список технических средств</label>
+                  </div>
+                  <p><sub>*</sub>обязательные поля</p>
+                  <div class="buttons">
+                    <input class="button" type="submit" value="сохранить"/><a class="button cancel" href="#">отмена</a>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="tab-pane fade" id="list-doc">
+              <form>
+                <h4>Вы можете разместить не более трех докладов или презентаций. Все доклады будут проверяться научным комитетом.</h4>
+                <p>Размер файлов до 2 Мб. Формат PDF, JPG, JPEG, PNG, DOCX. </p>
+                <div class="docs">
+                  <div class="item">
+                    <div class="head">
+                      <h5>Презентация к докладу</h5>
+                      <ul>
+                        <li> <a class="icon-edit" href="#">Редактировать</a></li>
+                        <li><a class="icon-delete" href="#">Удалить</a></li>
+                      </ul>
+                      <p class="status">на модерации</p><i class="icon-comments" data-comments="0"></i>
+                    </div>
+                    <div class="content-message"></div>
+                  </div>
+                  <div class="item">
+                    <div class="head">
+                      <h5>Презентация к докладу</h5>
+                      <ul>
+                        <li><a class="icon-edit" href="#">Редактировать</a></li>
+                        <li><a class="icon-delete" href="#">Удалить</a></li>
+                      </ul>
+                      <p class="status active">принято</p><i class="icon-comments" data-comments="1"></i>
+                    </div>
+                    <div class="content-message">
+                      <ul class="meta">
+                        <li>19.05.2021</li>
+                        <li>16:41</li>
+                        <li>Модератор</li>
+                      </ul>
+                      <p>Ваш файл успешно опубликован.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="input">
+                  <input type="text" maxlength="100"/>
+                  <label>Наименование документа</label>
+                  <p class="length"><span>0 </span>/ 100</p>
+                </div>
+                <div class="file"><i class="icon-document"></i>
+                  <div class="dfc">
+                    <input id="add-file" type="file"/>
+                    <label for="add-file">Загрузить файл</label>
+                    <p>Файл не выбран</p>
+                  </div>
+                </div>
+                <input class="button" type="submit" value="опубликовать"/>
+              </form>
+            </div>
+            <div class="tab-pane" id="registration">
+              <form>
+                <div class="radio-buttons dfr">
+                  <div class="radio-button">
+                    <input id="ru" type="radio" name="money" checked="checked"/>
+                    <label for="ru">Руб </label>
+                  </div>
+                  <div class="radio-button">
+                    <input id="eu" type="radio" name="money"/>
+                    <label for="eu">EU</label>
+                  </div>
+                </div>
+                <div class="checkbox">
+                  <input id="checkbox" type="checkbox"/>
+                  <label for="checkbox">Очный участник. Стоимость - 10 000 руб</label>
+                </div>
+                <div class="checkbox">
+                  <input id="checkbox-2" type="checkbox"/>
+                  <label for="checkbox-2">публикация одной статьи для очных/заочных участников. Стоимость - 2 000 руб</label>
+                </div>
+                <div class="checkbox">
+                  <input id="checkbox-3" type="checkbox"/>
+                  <label for="checkbox-3">Публикация двух статей. Стоимость - 4 000 руб</label>
+                </div>
+                <p class="price">Всего:<span>14 000 руб</span></p>
+                <div class="buttons">
+                  <input class="button" type="submit" value="оплатить"/>
+                  <div class="file">
+                    <input id="add-file" type="file"/>
+                    <label for="add-file">Загрузить файл</label>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

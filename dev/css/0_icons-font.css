@@ -1,0 +1,117 @@
+
+@font-face {
+    font-family: 'custom-icons';
+    src: url('../fonts/custom-icons.eot?1624885178080');
+    src: url('../fonts/custom-icons.eot?#iefix-1624885178080') format('embedded-opentype'), url('../fonts/custom-icons.woff2?1624885178080') format('woff2'), url('../fonts/custom-icons.woff?1624885178080') format('woff'), url('../fonts/custom-icons.ttf?1624885178080') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^='icon-'].vc_tta-panel .vc_tta-title-text:after,
+[class*=' icon-'].vc_tta-panel .vc_tta-title-text:after,
+[class^='icon-']:not(.vc_tta-panel):before,
+[class*=' icon-']:not(.vc_tta-panel):before {
+    font-family: 'custom-icons';
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+    font-weight: normal;
+    font-style: normal;
+    speak: none;
+    text-decoration: inherit;
+    font-size: inherit;
+    text-transform: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+	.icon-air.vc_tta-panel .vc_tta-title-text:after,
+	.icon-air:not(.vc_tta-panel):before {
+        content: '\ea01';
+    }
+
+	.icon-arrow-right.vc_tta-panel .vc_tta-title-text:after,
+	.icon-arrow-right:not(.vc_tta-panel):before {
+        content: '\ea02';
+    }
+
+	.icon-calendar.vc_tta-panel .vc_tta-title-text:after,
+	.icon-calendar:not(.vc_tta-panel):before {
+        content: '\ea03';
+    }
+
+	.icon-car.vc_tta-panel .vc_tta-title-text:after,
+	.icon-car:not(.vc_tta-panel):before {
+        content: '\ea04';
+    }
+
+	.icon-comments.vc_tta-panel .vc_tta-title-text:after,
+	.icon-comments:not(.vc_tta-panel):before {
+        content: '\ea05';
+    }
+
+	.icon-delete.vc_tta-panel .vc_tta-title-text:after,
+	.icon-delete:not(.vc_tta-panel):before {
+        content: '\ea06';
+    }
+
+	.icon-document.vc_tta-panel .vc_tta-title-text:after,
+	.icon-document:not(.vc_tta-panel):before {
+        content: '\ea07';
+    }
+
+	.icon-edit.vc_tta-panel .vc_tta-title-text:after,
+	.icon-edit:not(.vc_tta-panel):before {
+        content: '\ea08';
+    }
+
+	.icon-email.vc_tta-panel .vc_tta-title-text:after,
+	.icon-email:not(.vc_tta-panel):before {
+        content: '\ea09';
+    }
+
+	.icon-left.vc_tta-panel .vc_tta-title-text:after,
+	.icon-left:not(.vc_tta-panel):before {
+        content: '\ea0a';
+    }
+
+	.icon-lock.vc_tta-panel .vc_tta-title-text:after,
+	.icon-lock:not(.vc_tta-panel):before {
+        content: '\ea0b';
+    }
+
+	.icon-logout.vc_tta-panel .vc_tta-title-text:after,
+	.icon-logout:not(.vc_tta-panel):before {
+        content: '\ea0c';
+    }
+
+	.icon-marker.vc_tta-panel .vc_tta-title-text:after,
+	.icon-marker:not(.vc_tta-panel):before {
+        content: '\ea0d';
+    }
+
+	.icon-nautical.vc_tta-panel .vc_tta-title-text:after,
+	.icon-nautical:not(.vc_tta-panel):before {
+        content: '\ea0e';
+    }
+
+	.icon-phone.vc_tta-panel .vc_tta-title-text:after,
+	.icon-phone:not(.vc_tta-panel):before {
+        content: '\ea0f';
+    }
+
+	.icon-photo.vc_tta-panel .vc_tta-title-text:after,
+	.icon-photo:not(.vc_tta-panel):before {
+        content: '\ea10';
+    }
+
+	.icon-railway.vc_tta-panel .vc_tta-title-text:after,
+	.icon-railway:not(.vc_tta-panel):before {
+        content: '\ea11';
+    }
+
+	.icon-right.vc_tta-panel .vc_tta-title-text:after,
+	.icon-right:not(.vc_tta-panel):before {
+        content: '\ea12';
+    }
